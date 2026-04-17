@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="km">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>បុណ្យចូលឆ្នាំខ្មែរ | វិចិត្រសាលរូបភាព</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Suwannaphum:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-sans bg-gray-50 text-gray-900 min-h-screen flex flex-col">
+<header class="bg-white border-b-4 border-khmer-gold sticky top-0 z-50 shadow-sm relative">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    
+    <a href="index.html" class="text-2xl font-khmer font-bold text-khmer-blue flex items-center gap-2">
+      <i class="fa-solid fa-om text-khmer-gold"></i> មហាសង្ក្រាន្ត
+    </a>
+
+    <input type="checkbox" id="menu-toggle" class="peer hidden" />
+
+    <label for="menu-toggle" class="md:hidden cursor-pointer text-gray-700 text-2xl hover:text-khmer-red transition-colors">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+
+    <nav class="
+      absolute top-full left-0 w-full bg-white shadow-md border-b border-gray-100 flex-col p-4 gap-4 
+      hidden peer-checked:flex 
+      md:static md:flex md:flex-row md:w-auto md:bg-transparent md:shadow-none md:border-none md:p-0 md:gap-6 
+      font-medium text-gray-700 font-khmer
+    ">
+      <a href="history.html" class="hover:text-khmer-red transition-colors block md:inline-block">ប្រវត្តិសាស្ត្រ</a>
+      <a href="activities.html" class="hover:text-khmer-red transition-colors block md:inline-block">សកម្មភាព</a>
+      <a href="game.html" class="hover:text-khmer-red transition-colors block md:inline-block">ល្បែងប្រជាប្រិយ</a>
+      <a href="gallery.html" class="hover:text-khmer-red transition-colors block md:inline-block">រូបភាព</a>
+    </nav>
+
+  </div>
+</header>
+
+    <main class="flex-1 max-w-7xl mx-auto px-4 py-16 w-full">
+      <h1
+        class="text-4xl md:text-5xl font-bold text-center mb-6 text-blue-700 font-khmer"
+      >
+        ទិដ្ឋភាពសំខាន់ៗនៃពិធីបុណ្យ
+      </h1>
+      <p class="text-center text-gray-500 mb-10 font-khmer">
+        ស្វែងយល់ពីភាពស្រស់ស្អាតនៃប្រពៃណីបុណ្យចូលឆ្នាំខ្មែរ
+      </p>
+
+      <div
+        class="flex justify-center gap-2 sm:gap-3 mb-8 sm:mb-12 flex-wrap font-khmer"
+      >
+        <button
+          class="px-4 py-2 sm:px-5 sm:py-2 bg-white text-gray-600 rounded-full shadow hover:bg-gray-100 text-sm sm:text-base"
+        >
+          ទាំងអស់
+        </button>
+        <button
+          class="px-4 py-2 sm:px-5 sm:py-2 bg-white text-gray-600 rounded-full shadow hover:bg-gray-100 text-sm sm:text-base"
+        >
+          វត្តអារាម
+        </button>
+        <button
+          class="px-4 py-2 sm:px-5 sm:py-2 bg-white text-gray-600 rounded-full shadow hover:bg-gray-100 text-sm sm:text-base"
+        >
+          ម្ហូបអាហារ
+        </button>
+        <button
+          class="px-4 py-2 sm:px-5 sm:py-2 bg-white text-gray-600 rounded-full shadow hover:bg-gray-100 text-sm sm:text-base"
+        >
+          របាំ
+        </button>
+      </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 auto-rows-[180px] sm:auto-rows-[220px] md:auto-rows-[260px]"
+      >
+        <div
+          class="relative overflow-hidden rounded-2xl shadow group md:row-span-2"
+        >
+          <img
+            src="./image/ror-bam.jpg"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-500 max-h-64 sm:max-h-80"
+            style="aspect-ratio: 4/3"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-4"
+          >
+            <span class="text-white font-khmer font-bold text-lg"
+              >របាំត្រុដិ</span
+            >
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden rounded-2xl shadow group">
+          <img
+            src="./image/nom-ansom.jpg"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-500 max-h-64 sm:max-h-80"
+            style="aspect-ratio: 4/3"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-4"
+          >
+            <span class="text-white font-khmer font-bold">នំអន្សម</span>
+          </div>
+        </div>
+
+        <div
+          class="relative overflow-hidden rounded-2xl shadow group sm:col-span-2"
+        >
+          <img
+            src="./image/Monks.jpg"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-500 max-h-64 sm:max-h-80"
+            style="aspect-ratio: 4/3"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-4"
+          >
+            <span class="text-white font-khmer font-bold"
+              >ប្រគេនចង្ហាន់ព្រះសង្ឃ</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="relative overflow-hidden rounded-2xl shadow group sm:col-span-2"
+        >
+          <img
+            src="./image/Celebration.jpg"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-500 max-h-64 sm:max-h-80"
+            style="aspect-ratio: 4/3"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-4"
+          >
+            <span class="text-white font-khmer font-bold text-lg"
+              >ការកម្សាន្តនៅតាមភូមិ</span
+            >
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden rounded-2xl shadow group">
+          <img
+            src="./image/Temple.jpg"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-500 max-h-64 sm:max-h-80"
+            style="aspect-ratio: 4/3"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-4"
+          >
+            <span class="text-white font-khmer font-bold"
+              >ការតុបតែងវត្តអារាម</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="relative overflow-hidden rounded-2xl shadow group sm:col-span-2"
+        >
+          <img
+            src="./image/Traditional.jpg"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-500 max-h-64 sm:max-h-80"
+            style="aspect-ratio: 4/3"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-4"
+          >
+            <span class="text-white font-khmer font-bold"
+              >សម្លៀកបំពាក់ប្រពៃណី</span
+            >
+          </div>
+        </div>
+        <div
+          class="relative overflow-hidden rounded-2xl shadow group sm:col-span-2"
+        >
+          <img
+            src="./image/ror-bam.jpg"
+            class="w-full h-full object-cover group-hover:scale-110 transition duration-500 max-h-64 sm:max-h-80"
+            style="aspect-ratio: 4/3"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-4"
+          >
+            <span class="text-white font-khmer font-bold"
+              >សម្លៀកបំពាក់ប្រពៃណី</span
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      class="bg-gray-900 text-gray-300 text-center py-10 border-t-4 border-khmer-gold font-khmer"
+    >
+      <p class="text-lg">© ២០២៦ រក្សាសិទ្ធិគ្រប់យ៉ាង ធឿន សីហា</p>
+    </footer>
+  </body>
+</html>

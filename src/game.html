@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khmer New Year | Games</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Suwannaphum:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Tailwind -->
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-sans bg-gray-50 text-gray-900 min-h-screen flex flex-col">
+    <!-- HEADER -->
+<header class="bg-white border-b-4 border-khmer-gold sticky top-0 z-50 shadow-sm relative">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    
+    <a href="index.html" class="text-2xl font-khmer font-bold text-khmer-blue flex items-center gap-2">
+      <i class="fa-solid fa-om text-khmer-gold"></i> មហាសង្ក្រាន្ត
+    </a>
+
+    <input type="checkbox" id="menu-toggle" class="peer hidden" />
+
+    <label for="menu-toggle" class="md:hidden cursor-pointer text-gray-700 text-2xl hover:text-khmer-red transition-colors">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+
+    <nav class="
+      absolute top-full left-0 w-full bg-white shadow-md border-b border-gray-100 flex-col p-4 gap-4 
+      hidden peer-checked:flex 
+      md:static md:flex md:flex-row md:w-auto md:bg-transparent md:shadow-none md:border-none md:p-0 md:gap-6 
+      font-medium text-gray-700 font-khmer
+    ">
+      <a href="history.html" class="hover:text-khmer-red transition-colors block md:inline-block">ប្រវត្តិសាស្ត្រ</a>
+      <a href="activities.html" class="hover:text-khmer-red transition-colors block md:inline-block">សកម្មភាព</a>
+      <a href="game.html" class="hover:text-khmer-red transition-colors block md:inline-block">ល្បែងប្រជាប្រិយ</a>
+      <a href="gallery.html" class="hover:text-khmer-red transition-colors block md:inline-block">រូបភាព</a>
+    </nav>
+
+  </div>
+</header>
+
+    <!-- MAIN -->
+    <main class="flex-1 max-w-7xl mx-auto px-4 py-16 w-full">
+      <div class="text-center mb-12">
+        <h1
+          class="text-4xl md:text-5xl font-khmer font-bold text-blue-700 mb-3"
+        >
+          ល្បែងប្រជាប្រិយខ្មែរ
+        </h1>
+        <p class="text-gray-500">
+          Traditional Khmer Games during Khmer New Year
+        </p>
+      </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+      >
+        <div
+          class="bg-white rounded-2xl shadow hover:shadow-xl overflow-hidden group transition"
+        >
+          <div class="h-44 sm:h-52 overflow-hidden">
+            <img
+              src="./image/chorchorng.png"
+              class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+              alt="Chol Chhoung"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-khmer font-bold text-blue-700 mb-2">
+              ចោលឈូង (Chol Chhoung)
+            </h3>
+            <p class="font-khmer text-gray-700 text-sm mb-2">
+              ល្បែងបោះរមូរក្រមាដាក់គ្នាទៅវិញទៅមករវាងក្រុមបុរស និងនារី
+              អមដោយការច្រៀងរាំយ៉ាងសប្បាយរីករាយ។
+            </p>
+            <p class="text-gray-500 text-xs italic">
+              A game where two groups (men and women) throw a rolled scarf to
+              each other while singing and dancing.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow hover:shadow-xl overflow-hidden group transition"
+        >
+          <div class="h-44 sm:h-52 overflow-hidden">
+            <img
+              src="./image/bos.png"
+              class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+              alt="Bos Angkunh"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-khmer font-bold text-blue-700 mb-2">
+              បោះអង្គញ់ (Bos Angkunh)
+            </h3>
+            <p class="font-khmer text-gray-700 text-sm mb-2">
+              ល្បែងប្រើផ្លែអង្គញ់ដើម្បីបាញ់ ឬបោះតម្រង់ទៅរកគោលដៅ
+              ដើម្បីស្វែងរកអ្នកឈ្នះ និងអ្នកចាញ់។
+            </p>
+            <p class="text-gray-500 text-xs italic">
+              Players throw or flick "Angkunh" seeds to hit targets, testing
+              accuracy and focus.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow hover:shadow-xl overflow-hidden group transition"
+        >
+          <div class="h-44 sm:h-52 overflow-hidden">
+            <img
+              src="./image/lak.png"
+              class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+              alt="Leak Kanseng"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-khmer font-bold text-blue-700 mb-2">
+              លាក់កន្សែង (Leak Kanseng)
+            </h3>
+            <p class="font-khmer text-gray-700 text-sm mb-2">
+              អ្នកលេងអង្គុយជារង្វង់ រួចលាក់កន្សែងនៅពីក្រោយខ្នងម្នាក់ៗដោយសម្ងាត់
+              ដើម្បីដេញវាយអ្នកដែលមិនដឹងខ្លួន។
+            </p>
+            <p class="text-gray-500 text-xs italic">
+              A circle game where a scarf is hidden behind a player, testing
+              their alertness and speed.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow hover:shadow-xl overflow-hidden group transition"
+        >
+          <div class="h-44 sm:h-52 overflow-hidden">
+            <img
+              src="./image/prort.png"
+              class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+              alt="Teanh Prot"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-khmer font-bold text-blue-700 mb-2">
+              ទាញព្រ័ត្រ (Teanh Prot)
+            </h3>
+            <p class="font-khmer text-gray-700 text-sm mb-2">
+              ល្បែងប្រឡងកម្លាំងដោយការទាញខ្សែព្រ័ត្ររវាងក្រុមពីរ
+              ដែលបង្ហាញពីសាមគ្គីភាព និងភាពរឹងមាំ។
+            </p>
+            <p class="text-gray-500 text-xs italic">
+              A tug-of-war game that represents teamwork and the collective
+              strength of the community.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow hover:shadow-xl overflow-hidden group transition"
+        >
+          <div class="h-44 sm:h-52 overflow-hidden">
+            <img
+              src="./image/don-derm.png"
+              class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+              alt="Don Derm Slek Chheu"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-khmer font-bold text-blue-700 mb-2">
+              ដណ្តើមស្លឹកឈើ (Don Derm Slek Chheu)
+            </h3>
+            <p class="font-khmer text-gray-700 text-sm mb-2">
+              អ្នកលេងត្រូវប្រើភាពរហ័សរហួនដើម្បីដណ្តើមយកស្លឹកឈើនៅកណ្តាល
+              រួចរត់ត្រឡប់ទៅក្រុមខ្លួនវិញ។
+            </p>
+            <p class="text-gray-500 text-xs italic">
+              A fast-paced game where players race to grab a leaf in the center
+              and return to their base.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow hover:shadow-xl overflow-hidden group transition"
+        >
+          <div class="h-44 sm:h-52 overflow-hidden">
+            <img
+              src="./image/selak.png"
+              class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+              alt="Chab Kon Kleng"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-khmer font-bold text-blue-700 mb-2">
+              ចាប់កូនខ្លែង (Chab Kon Kleng)
+            </h3>
+            <p class="font-khmer text-gray-700 text-sm mb-2">
+              ល្បែងដេញចាប់ដែលមេមាន់ត្រូវការពារកូនៗរបស់ខ្លួន
+              ពីការយាយីដេញចាប់របស់មេខ្លែង។
+            </p>
+            <p class="text-gray-500 text-xs italic">
+              A chase game where the "mother hen" protects her chicks from being
+              caught by the "kite."
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer
+      class="bg-gray-900 text-gray-300 text-center py-10 border-t-4 border-khmer-gold font-khmer"
+    >
+      <p class="text-lg">© ២០២៦ រក្សាសិទ្ធិគ្រប់យ៉ាង ធឿន​ សីហា</p>
+    </footer>
+  </body>
+</html>

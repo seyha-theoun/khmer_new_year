@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-khmer: 'Suwannaphum', serif;
+  
+  /* Khmer Culture Palette */
+  --color-khmer-gold: #E5B143;    /* Traditional jewelry and temple roofs */
+  --color-khmer-red: #E11A27;     /* From the Cambodian flag */
+  --color-khmer-blue: #032EA1;    /* From the Cambodian flag */
+  --color-angkor-stone: #8C8A81;  /* Temple sandstone */
+  --color-lotus-pink: #F4B8C8;    /* National lotus flowers */
+}
